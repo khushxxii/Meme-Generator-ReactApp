@@ -1,10 +1,12 @@
-import React from "react"
-
+import logo from "/images/logo.png"
 
 export default function Header() {
     return (
-        <header>
-            <h1>My React App</h1>
+        <header className="header">
+            <img 
+                src={logo} 
+            />
+            <h1>Meme Generator</h1>
         </header>
     )
-    }
+}
